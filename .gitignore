@@ -1,0 +1,20 @@
+# Keep the folders, ignore generated/private contents.
+input/*
+!input/.gitkeep
+
+output/*
+!output/.gitkeep
+
+# Python/cache files.
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local environments.
+.venv/
+venv/
+myenv/
+
+# macOS.
+.DS_Store
